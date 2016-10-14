@@ -75,6 +75,10 @@ git commit -m "A good commit message for this change."
 
 Fetch\Pull\Push
 
+#VSLIDE
+
+Always <span style="color:#e49436">PULL</span> before you <span style="color:#e49436">PUSH</span>
+
 #HSLIDE
 
 Branching
