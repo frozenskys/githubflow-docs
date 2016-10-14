@@ -45,6 +45,10 @@ Fetch\Pull\Push
 #HSLIDE
 
 Branching
+![Logo](assets/branching.png)
+
+#VSLIDE
+
 Create a new branch from the current and check it out 
 
 ```
