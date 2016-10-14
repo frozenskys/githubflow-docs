@@ -1,6 +1,6 @@
 #HSLIDE
 
-Hello, Git!
+Hello, <span style="color:#e49436">Git</span>!
 #####A Git CLI 101
 
 #HSLIDE
