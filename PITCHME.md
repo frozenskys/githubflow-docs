@@ -1,16 +1,18 @@
 #HSLIDE
 
 Hello, Git!
-###A Git CLI 101
+#####A Git CLI 101
 
 #HSLIDE
 
-- Create new repo <!-- .element: class="fragment" -->
-- Clone existing repo <!-- .element: class="fragment" -->
-- Commit (and Add) <!-- .element: class="fragment" -->
-- Fetch\Pull\Push <!-- .element: class="fragment" -->
-- Branch <!-- .element: class="fragment" -->
-- Merge <!-- .element: class="fragment" -->
+Contents
+
+- Create new repo 
+- Clone existing repo 
+- Commit (and Add) 
+- Fetch\Pull\Push 
+- Branch 
+- Merge 
 
 #HSLIDE
 
