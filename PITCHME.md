@@ -33,7 +33,7 @@ Creating git repositories
 
 #VSLIDE
 
-Create an empty repository for a new project
+Create an empty repository for a <span style="color:#e49436">new</span> project
 
 ```bash
 mkdir myNewProject
@@ -43,7 +43,7 @@ git init
 
 #VSLIDE 
 
-Create a repository for an existing project
+Create a repository for an <span style="color:#e49436">existing</span> project
 
 ```bash
 cd myExistingProject
@@ -55,7 +55,7 @@ git commit -m "Initial Import"
 
 #VSLIDE 
 
-Clone an exsiting remote repository
+Clone an existing <span style="color:#e49436">remote</span> repository
 
 ```bash
 git clone https://github.com/frozenskys/githubflow-docs.git
@@ -64,7 +64,7 @@ cd githubflow-docs
 
 #HSLIDE
 
-Adding and Commiting
+Adding and Committing
 
 #VSLIDE
 
