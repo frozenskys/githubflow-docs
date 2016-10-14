@@ -16,6 +16,16 @@ Contents
 
 #HSLIDE
 
+Make sure your git is configured correctly
+
+```bash
+git config --global user.name "Fred Flintstone"
+git config --global user.email "fred@bedrock.com"
+git config --global core.autocrlf true
+```
+
+#VSLIDE
+
 Create a New Repository
 
 ```bash
@@ -31,6 +41,7 @@ Use git for a legacy Project
 ```bash
 cd myExistingProject
 git init
+# Add all the code
 git add .
 git commit -m "Initial Import"
 ```
@@ -49,7 +60,7 @@ cd githubflow-docs
 Commit to your local repository
 
 ```bash
-git commit -m "A good commit message - that details this small change change."
+git commit -m "A good commit message - that details this change."
 ```
 
 #HSLIDE
