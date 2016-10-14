@@ -4,18 +4,12 @@ Hello, Git!
 
 #HSLIDE
 
-Several things...
-- Create new repo
-- Clone existing repo
- - Remotes
- - Origin
-- Commit (and Add)
-- Fetch\Pull\Push
-- Branch
- - Create
- - Checkout
- - Delete
-- Merge
+- Create new repo <!-- .element: class="fragment" -->
+- Clone existing repo <!-- .element: class="fragment" -->
+- Commit (and Add) <!-- .element: class="fragment" -->
+- Fetch\Pull\Push <!-- .element: class="fragment" -->
+- Branch <!-- .element: class="fragment" -->
+- Merge <!-- .element: class="fragment" -->
 
 #HSLIDE
 
