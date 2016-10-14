@@ -21,4 +21,12 @@ git init
 
 #HSLIDE
 
+Clone an exsiting Repsoitory
+
+```bash
+git clone https://github.com/frozenskys/githubflow-docs.git
+```
+
+#HSLIDE
+
 The End :)
