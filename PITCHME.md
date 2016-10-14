@@ -97,21 +97,21 @@ Branching
 
 Create a new branch from the current and check it out 
 
-```
+```bash
 git checkout -b myNewBranch
 ```
 
 #VSLIDE
 Switch back to master
 
-```
+```bash
 git checkout master
 ```
 
 #VSLIDE
 List branches
 
-```
+```bash
 git branch
 ```
 
