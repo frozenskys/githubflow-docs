@@ -68,7 +68,7 @@ Adding and Commiting
 Commit to your local repository
 
 ```bash
-git commit -m "A good commit message - that details this change."
+git commit -m "A good commit message for this change."
 ```
 
 #HSLIDE
@@ -78,6 +78,12 @@ Fetch\Pull\Push
 #HSLIDE
 
 Branching
+
+- Branches should be short lived
+- Never develop on master! 
+
+#VSLIDE
+
 ![Logo](assets/branching.png)
 
 #VSLIDE
