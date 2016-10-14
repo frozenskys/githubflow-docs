@@ -24,9 +24,13 @@ git config --global user.email "fred@bedrock.com"
 git config --global core.autocrlf true
 ```
 
+#HSLIDE
+
+Creating git repositories
+
 #VSLIDE
 
-Create a New Repository
+Create an empty repository for a new project
 
 ```bash
 mkdir myNewProject
@@ -36,7 +40,7 @@ git init
 
 #VSLIDE 
 
-Use git for a legacy Project
+Create a repository for an existing project
 
 ```bash
 cd myExistingProject
@@ -46,9 +50,9 @@ git add .
 git commit -m "Initial Import"
 ```
 
-#HSLIDE 
+#VSLIDE 
 
-Clone an exsiting Repository
+Clone an exsiting remote repository
 
 ```bash
 git clone https://github.com/frozenskys/githubflow-docs.git
@@ -56,6 +60,10 @@ cd githubflow-docs
 ```
 
 #HSLIDE
+
+Adding and Commiting
+
+#VSLIDE
 
 Commit to your local repository
 
