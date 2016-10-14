@@ -16,6 +16,8 @@ Hello, Git!
 Create a New Repository
 
 ```bash
+mkdir myNewProject
+cd myNewProject
 git init
 ```
 
@@ -25,6 +27,7 @@ Clone an exsiting Repsoitory
 
 ```bash
 git clone https://github.com/frozenskys/githubflow-docs.git
+cd githubflow-docs
 ```
 
 #HSLIDE
