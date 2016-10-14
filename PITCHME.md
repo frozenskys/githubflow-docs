@@ -1,7 +1,7 @@
 #HSLIDE
 
 Hello, <span style="color:#e49436">Git</span>!
-#####A Git CLI 101
+A Git CLI 101
 
 #HSLIDE
 
@@ -43,19 +43,21 @@ Fetch\Pull\Push
 
 #HSLIDE
 
-##Branching
+Branching
 Create a new branch from the current and check it out 
 
 ```
 git checkout -b myNewBranch
 ```
 
+#VSLIDE
 Switch back to master
 
 ```
 git checkout master
 ```
 
+#VSLIDE
 List branches
 
 ```
