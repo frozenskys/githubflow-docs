@@ -13,4 +13,12 @@ Hello, Git!
 
 #HSLIDE
 
+Create a New Repository
+
+```bash
+git init
+```
+
+#HSLIDE
+
 The End :)
