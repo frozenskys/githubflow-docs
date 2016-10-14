@@ -43,11 +43,18 @@ Fetch\Pull\Push
 
 ##Branching
 Create a new branch from the current and check it out 
-`git checkout -b myNewBranch`
+
+```
+git checkout -b myNewBranch
+```
+
 Switch back to master
-`git checkout master`
+
+```git checkout master```
+
 List branches
-`git branch`
+
+```git branch```
 
 #HSLIDE
 
