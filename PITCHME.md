@@ -50,11 +50,15 @@ git checkout -b myNewBranch
 
 Switch back to master
 
-```git checkout master```
+```
+git checkout master
+```
 
 List branches
 
-```git branch```
+```
+git branch
+```
 
 #HSLIDE
 
