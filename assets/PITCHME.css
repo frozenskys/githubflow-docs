@@ -3,3 +3,7 @@
   box-shadow: none;
   background: none;
 }
+
+.slides {
+    width: 1024px !important;
+}
