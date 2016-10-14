@@ -39,6 +39,15 @@ cd myNewProject
 git init
 ```
 
+#VSLIDE
+
+Pushing a newly created repository to a remote server
+
+```bash
+git remote add origin https://github.com/frozenskys/githubflow-docs.git
+git push origin master
+```
+
 #VSLIDE 
 
 Create a repository for an existing project
