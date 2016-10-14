@@ -25,9 +25,16 @@ cd myNewProject
 git init
 ```
 
-#HSLIDE
+#VSLIDE Use git for a legacy Project
 
-Clone an exsiting Repsoitory
+```bash
+cd myExistingProject
+git init
+git add .
+git commit -m "Initial Import"
+```
+
+#HSLIDE Clone an exsiting Repository
 
 ```bash
 git clone https://github.com/frozenskys/githubflow-docs.git
@@ -37,6 +44,10 @@ cd githubflow-docs
 #HSLIDE
 
 Commit to your local repository
+
+```bash
+git commit -m "A good commit message - that details this small change change."
+```
 
 #HSLIDE
 
