@@ -25,6 +25,7 @@ git init
 ```
 
 #VSLIDE 
+
 Use git for a legacy Project
 
 ```bash
@@ -35,6 +36,7 @@ git commit -m "Initial Import"
 ```
 
 #HSLIDE 
+
 Clone an exsiting Repository
 
 ```bash
@@ -43,6 +45,7 @@ cd githubflow-docs
 ```
 
 #HSLIDE
+
 Commit to your local repository
 
 ```bash
@@ -50,9 +53,11 @@ git commit -m "A good commit message - that details this small change change."
 ```
 
 #HSLIDE
+
 Fetch\Pull\Push
 
 #HSLIDE
+
 Branching
 ![Logo](assets/branching.png)
 
