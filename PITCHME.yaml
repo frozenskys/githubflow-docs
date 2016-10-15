@@ -1,4 +1,4 @@
 theme : black
 highlight : monokai
-autoslide : 5500
+autoslide : 7500
 theme-override : assets/PITCHME.css
