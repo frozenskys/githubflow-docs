@@ -2,22 +2,32 @@
 
 An Introduction to <span style="color:#e49436">GitHub Flow</span>
 
-![Logo](assets/git-pull-request.png)
-
-
-#HSLIDE
-Contents
-
-- Branch 
-- Code
-- Pull Request
+![Logo](assets/github.png)
 
 #HSLIDE
 
-There is an introduction to <span style="color:#e49436">git</span> here...
+Before we start...
+
+There is an introduction to <span style="color:#e49436">git</span> here if you need it...
 
 https://www.gitpitch.com/frozenskys/githubflow-docs/introduction-to-git
 
+#HSLIDE
+
+Github Flow
+
+"GitHub Flow is all about short feedback loops (everything in DevOps mostly is, actually). This means work branches (‘work’ could mean a new feature or a bug fix – there is no distinction) starts from the production code (master) and are short lived – the shorter the better. Merging back becomes a breeze and we are truly continuously integrating."
+
+#VSLIDE
+Our Current Status
+
+![Logo](assets/hell-on-earth.png)
+
+#VSLIDE
+
+GitHub Flow
+
+![Logo](assets/githubflow.png)
 
 #HSLIDE
 
