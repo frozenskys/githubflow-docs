@@ -53,6 +53,15 @@ git add .
 git commit -m "Initial Import"
 ```
 
+#VSLIDE
+
+Linking a <span style="color:#e49436">local</span> and <span style="color:#e49436">remote</span> repository
+
+```bash
+git remote add origin https://github.com/frozenskys/githubflow-docs.git
+git push origin master
+```
+
 #VSLIDE 
 
 Clone an existing <span style="color:#e49436">remote</span> repository
