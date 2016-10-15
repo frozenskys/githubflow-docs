@@ -1,11 +1,9 @@
 #HSLIDE
 
-Hello, <span style="color:#e49436">Git</span>!
+An Introduction to <span style="color:#e49436">GitHub Flow</span>!
 
 ![Logo](assets/git-pull-request.png)
 
-
-A Git CLI 101
 
 #HSLIDE
 Contents
