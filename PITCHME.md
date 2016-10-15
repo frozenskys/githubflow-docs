@@ -1,6 +1,6 @@
 #HSLIDE
 
-An Introduction to <span style="color:#e49436">GitHub Flow</span>!
+An Introduction to <span style="color:#e49436">GitHub Flow</span>
 
 ![Logo](assets/git-pull-request.png)
 
@@ -38,7 +38,7 @@ Create a new branch from the current and check it out
 git checkout -b well-named-feature
 ```
 
-#VLSIDE
+#VSLIDE
 
 Write some Code...
 
