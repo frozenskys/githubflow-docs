@@ -10,86 +10,16 @@ A Git CLI 101
 #HSLIDE
 Contents
 
-- Create new repo 
-- Clone existing repo 
-- Commit (and Add) 
-- Fetch\Pull\Push 
 - Branch 
-- Merge 
+- Code
+- Pull Request
 
 #HSLIDE
 
-Make sure your git is configured correctly
+There is an introduction to <span style="color:#e49436">git</span> here...
 
-```bash
-git config --global user.name "Fred Flintstone"
-git config --global user.email "fred@bedrock.com"
-git config --global core.autocrlf true
-```
+https://www.gitpitch.com/frozenskys/githubflow-docs/introduction-to-git
 
-#HSLIDE
-
-Creating git repositories
-
-#VSLIDE
-
-Create an empty repository for a <span style="color:#e49436">new</span> project
-
-```bash
-mkdir myNewProject
-cd myNewProject
-git init
-```
-
-#VSLIDE 
-
-Create a repository for an <span style="color:#e49436">existing</span> project
-
-```bash
-cd myExistingProject
-git init
-# Add all the code
-git add .
-git commit -m "Initial Import"
-```
-
-#VSLIDE
-
-Linking a <span style="color:#e49436">local</span> and <span style="color:#e49436">remote</span> repository
-
-```bash
-git remote add origin https://github.com/frozenskys/githubflow-docs.git
-git push origin master
-```
-
-#VSLIDE 
-
-Clone an existing <span style="color:#e49436">remote</span> repository
-
-```bash
-git clone https://github.com/frozenskys/githubflow-docs.git
-cd githubflow-docs
-```
-
-#HSLIDE
-
-Adding and Committing
-
-#VSLIDE
-
-Commit to your local repository
-
-```bash
-git commit -m "A good commit message for this change."
-```
-
-#HSLIDE
-
-Fetch\Pull\Push
-
-#VSLIDE
-
-Always <span style="color:#e49436">PULL</span> before you <span style="color:#e49436">PUSH</span>
 
 #HSLIDE
 
@@ -107,21 +37,24 @@ Branching
 Create a new branch from the current and check it out 
 
 ```bash
-git checkout -b myNewBranch
+git checkout -b well-named-feature
 ```
 
-#VSLIDE
-Switch back to master
+#VLSIDE
 
-```bash
-git checkout master
-```
+Write some Code...
 
-#VSLIDE
-List branches
+```javascript
+var express = require('express');
+var app = express();
 
-```bash
-git branch
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
 ```
 
 #HSLIDE
