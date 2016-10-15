@@ -1,11 +1,11 @@
 #HSLIDE
 
-Hello, <span style="color:#e49436">Git</span>!
+Hello, <span style="color:#e49436">git</span>!
 
 ![Logo](assets/git.png)
 
 
-A Git CLI 101
+An introduction to the git commandline
 
 #HSLIDE
 Contents
