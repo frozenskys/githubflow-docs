@@ -124,9 +124,19 @@ Tags
 Add a new Tag
 
 ```bash
-git tag myTag name
+git tag myTagName
 # for versions you can use the following
-git tag myTag 0.4.2
+git tag 0.4.2
+```
+
+#VSLIDE
+
+Add a new annotated Tag
+
+```bash
+# for release versions you can use the following
+git checkout master
+git tag -a 0.4.2 -m "Implements #2403 & #2404"
 ```
 
 #VSLIDE
