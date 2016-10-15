@@ -10,12 +10,12 @@ A Git CLI 101
 #HSLIDE
 Contents
 
-- Create new repo 
-- Clone existing repo 
-- Commit (and Add) 
+- Repositories 
+- Adding and Committing
 - Fetch\Pull\Push 
-- Branch 
-- Merge 
+- Tags
+- Branching
+- Merging Branches
 
 #HSLIDE
 
@@ -91,16 +91,55 @@ Fetch\Pull\Push
 
 Always <span style="color:#e49436">PULL</span> before you <span style="color:#e49436">PUSH</span>
 
-#HSLIDE
+#VSLIDE
 
-Branching
+Fetch changes from the remote but <span style="color:#e49436">don't</span> merge them
 
-- Branches should be short lived
-- Never develop on master! 
+```bash
+git fetch
+```
 
 #VSLIDE
 
-![Logo](assets/branching.png)
+Fetch changes from the remote and <span style="color:#e49436">merge</span> them
+
+```bash
+git pull
+``` 
+
+#VSLIDE
+
+Push <span style="color:#e49436">committed</span> changes to the remote
+
+```bash
+git push
+```
+
+#HSLIDE
+
+Tags
+
+#VSLIDE
+
+Add a new Tag
+
+```bash
+git tag myTag name
+# for versions you can use the following
+git tag myTag 0.4.2
+```
+
+#VSLIDE
+
+To Push Tags
+
+```bash
+git push --tags
+```
+
+#HSLIDE
+
+Branching
 
 #VSLIDE
 
@@ -111,6 +150,15 @@ git checkout -b myNewBranch
 ```
 
 #VSLIDE
+
+Push your new branch to the remote 
+
+```bash
+git push origin myNewBranch
+```
+
+#VSLIDE
+
 Switch back to master
 
 ```bash
@@ -118,10 +166,24 @@ git checkout master
 ```
 
 #VSLIDE
+
 List branches
 
 ```bash
 git branch
+```
+
+#HSLIDE
+
+Merging Branches
+
+#VSLIDE
+
+```bash
+git checkout master
+git pull origin master
+git merge someOtherBranch
+git push origin master
 ```
 
 #HSLIDE
