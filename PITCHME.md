@@ -1,6 +1,6 @@
 #HSLIDE
 
-An Introduction to <span style="color:#e49436">GitHub Flow</span>
+Intermediate <span style="color:#e49436">git</span>
 
 ![Logo](assets/github.png)
 
@@ -14,66 +14,33 @@ https://www.gitpitch.com/frozenskys/githubflow-docs/introduction-to-git
 
 #HSLIDE
 
-Github Flow
-
-<span style="color:gray;font-style: italic;font-size:0.6em;"><span style="color:#e49436">"</span>GitHub Flow is all about short feedback loops (everything in DevOps mostly is, actually). This means work branches 
-(‘work’ could mean a new feature or a bug fix – there is no distinction) starts from the production code (master) and are short 
-lived – the shorter the better. Merging back becomes a breeze and we are truly continuously integrating.<span style="color:#e49436">"</span></span>
+Merging a branch from a remote (upstream) fork.
 
 #VSLIDE
-The old way
-
-![Logo](assets/hell-on-earth.png)
-
-#VSLIDE
-
-The <span style="color:#e49436">new</span> way
-
-![Logo](assets/githubflow.png)
-
-#VSLIDE 
-
-- Anything in the master branch is deployable <!-- .element: class="fragment" -->
-- To work on something new, create a descriptively named branch off of master <!-- .element: class="fragment" -->
-- Commit to that branch and regularly push your work to the server <!-- .element: class="fragment" -->
-- When you need feedback or help, or you think the branch is ready for merging, open a pull request <!-- .element: class="fragment" -->
-- After someone else has reviewed and signed off on the feature, you can merge it into master <!-- .element: class="fragment" -->
-- Once it is merged and pushed to ‘master’, you can and should deploy immediately <!-- .element: class="fragment" -->
-
-#HSLIDE
-
-Branching
-
-- Branches should be short lived
-- Never develop on master! 
-
-#VSLIDE
-
-![Logo](assets/branching.png)
-
-#VSLIDE
-
-Create a new branch from the current and check it out 
+Add the Remote you would like to sync (in this case we will call it agc93)
 
 ```bash
-git checkout -b well-named-feature
+git remote -v
+git remote add agc93 https://github.com/agc93/cake.git
+git remote -v
 ```
 
 #VSLIDE
 
-Write some Code...
+Merge the remote branch - in this case we'll merge agc93\develop into our develop branch.
 
-```javascript
-var express = require('express');
-var app = express();
+```bash
+git fetch agc93
+git checkout develop
+git merge agc93/develop
+```
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+#VSLIDE
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+Push the changes to the remote.
+
+```bash
+git push
 ```
 
 #HSLIDE
