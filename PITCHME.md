@@ -45,4 +45,25 @@ git push
 
 #HSLIDE
 
+Squashing !
+
+#VSLIDE
+
+Squash last 2 commits into 1 (Assuming you haven't pushed!)
+```
+git reset --soft HEAD~2
+```
+
+#VSLIDE
+
+Squash merge your branch into another.
+This will take all the commits from the develop branch, squash them into 1 commit and then merge it with your master branch.
+```
+git checkout master
+git merge --squash bugfix
+git commit
+```
+
+#HSLIDE
+
 The End :)
