@@ -38,7 +38,7 @@ The <span style="color:#e49436">new</span> way
 - Commit to that branch and regularly push your work to the server <!-- .element: class="fragment" -->
 - When you need feedback or help, or you think the branch is ready for merging, open a pull request <!-- .element: class="fragment" -->
 - After someone else has reviewed and signed off on the feature, you can merge it into master <!-- .element: class="fragment" -->
-- Once it is merged and pushed to ‘master’, you can and should deploy immediately <!-- .element: class="fragment" -->
+- Once it is merged and pushed to ‘master’, you can and should <span style="color:#e49436">deploy immediately</span> <!-- .element: class="fragment" -->
 
 #HSLIDE
 
@@ -74,6 +74,14 @@ app.get('/', function (req, res) {
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
+```
+
+#VSLIDE
+
+Commit your changes and push to remote
+
+```bash
+git add . && git commit -m"Shiny new code" && git push
 ```
 
 #HSLIDE
