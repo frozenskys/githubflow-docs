@@ -17,7 +17,7 @@ https://www.gitpitch.com/frozenskys/githubflow-docs/introduction-to-git
 Merging a branch from a remote (upstream) fork.
 
 #VSLIDE
-Add the Remote you would like to sync (in this case we will call it agc93)
+Add the Remote you would like to sync (in this case we will call it `agc93`)
 
 ```bash
 git remote -v
@@ -27,7 +27,7 @@ git remote -v
 
 #VSLIDE
 
-Merge the remote branch - in this case we'll merge agc93\develop into our develop branch.
+Merge the remote branch - in this case we'll merge `agc93\develop` into our develop branch.
 
 ```bash
 git fetch agc93
@@ -50,15 +50,15 @@ Squashing !
 #VSLIDE
 
 Squash last 2 commits into 1 (Assuming you haven't pushed!)
-```
+```bash
 git reset --soft HEAD~2
 ```
 
 #VSLIDE
 
 Squash merge your branch into another.
-This will take all the commits from the develop branch, squash them into 1 commit and then merge it with your master branch.
-```
+This will take all the commits from the `develop` branch, squash them into 1 commit and then merge it with your `master` branch.
+```bash
 git checkout master
 git merge --squash bugfix
 git commit
@@ -67,12 +67,12 @@ git commit
 #VSLIDE
 
 A better squash merge
-```
+```bash
 git checkout bugfix
 git merge master
 ```
 Resolve any conflicts, build, run tests, etc. then:
-```
+```bash
 git checkout master
 git merge --squash bugfix
 git commit
