@@ -64,6 +64,20 @@ git merge --squash bugfix
 git commit
 ```
 
+#VSLIDE
+
+A better squash merge
+```
+git checkout bugfix
+git merge master
+```
+Resolve any conflicts, build, run tests, etc. then:
+```
+git checkout master
+git merge --squash bugfix
+git commit
+```
+
 #HSLIDE
 
 The End :)
