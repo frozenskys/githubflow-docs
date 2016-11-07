@@ -80,4 +80,15 @@ git commit
 
 #HSLIDE
 
+Rebasing
+
+#VSLIDE
+In a nutshell:
+
+```bash
+git rebase --onto target-branch source-branch
+```
+
+#HSLIDE
+
 The End :)
