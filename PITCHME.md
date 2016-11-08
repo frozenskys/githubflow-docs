@@ -104,7 +104,7 @@ Reset back 3 commits
 git reset -- HEAD~2
 ```
 
-Undo all chenges since last commit
+Undo all changes since last commit
 ```bash
 git checkout -- .
 ```
