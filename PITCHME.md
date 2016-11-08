@@ -52,6 +52,7 @@ Squashing !
 Squash last 2 commits into 1 (Assuming you haven't pushed!)
 ```bash
 git reset --soft HEAD~2
+git commit -m"My Message"
 ```
 
 #VSLIDE
@@ -80,10 +81,37 @@ git commit
 
 #HSLIDE
 
-Rebasing
+Rebasing & Cleaning
 
 #VSLIDE
-In a nutshell:
+
+Clean files that are in .gitignore
+
+```bash
+git clean -xfd
+```
+
+#VSLIDE
+
+Reset back 2 commits and leave changes since in place
+```bash
+git reset --soft HEAD~2
+```
+
+Reset back 3 commits
+
+```
+git reset -- HEAD~2
+```
+
+Undo all chenges since last commit
+```bash
+git checkout -- .
+```
+
+
+#VSLIDE
+Rebase changes in one branch onto another
 
 ```bash
 git rebase --onto target-branch source-branch
