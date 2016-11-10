@@ -197,5 +197,30 @@ git push origin master
 ```
 
 #HSLIDE
+Deleting Branches
+
+#VSLIDE
+
+Remove Local branches
+
+```bash
+git branch -d myOldBranch
+```
+
+Or Remote Branches
+```
+git push origin --delete myOldBranch
+```
+
+#VSLIDE
+If you (or others) delete branches then others (or you) shoud run
+
+```bash
+git remote prune origin
+```
+
+to remove stale local branches that no longer exist in the remote
+
+#HSLIDE
 
 The End :)
