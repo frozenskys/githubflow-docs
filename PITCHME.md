@@ -38,7 +38,7 @@ The <span style="color:#e49436">new</span> way
 - Commit to that branch and regularly push your work to the server <!-- .element: class="fragment" -->
 - When you need feedback or help, or you think the branch is ready for merging, open a pull request <!-- .element: class="fragment" -->
 - After someone else has reviewed and signed off on the feature, you can merge it into master <!-- .element: class="fragment" -->
-- Once it is merged and pushed to ‘master’, you can and should <span style="color:#e49436">deploy immediately</span> <!-- .element: class="fragment" -->
+- Once it is merged and pushed to ‘master’, you can and should <!-- .element: class="fragment" --> <span style="color:#e49436">deploy immediately</span> <!-- .element: class="fragment" -->
 
 #HSLIDE
 
